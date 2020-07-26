@@ -486,7 +486,7 @@ chalk@^4.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chokidar@^3.3.1:
+"chokidar@>=2.0.0 <4.0.0", chokidar@^3.3.1:
   version "3.4.1"
   resolved "https://registry.npm.taobao.org/chokidar/download/chokidar-3.4.1.tgz?cache=0&sync_timestamp=1594864807174&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchokidar%2Fdownload%2Fchokidar-3.4.1.tgz#e905bdecf10eaa0a0b1db0c664481cc4cbc22ba1"
   integrity sha1-6QW97PEOqgoLHbDGZEgcxMvCK6E=
@@ -1755,6 +1755,13 @@ safe-buffer@5.1.2:
   version "5.1.2"
   resolved "https://registry.npm.taobao.org/safe-buffer/download/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha1-mR7GnSluAxN0fVm9/St0XDX4go0=
+
+sass@1.26.10:
+  version "1.26.10"
+  resolved "https://registry.npm.taobao.org/sass/download/sass-1.26.10.tgz#851d126021cdc93decbf201d1eca2a20ee434760"
+  integrity sha1-hR0SYCHNyT3svyAdHsoqIO5DR2A=
+  dependencies:
+    chokidar ">=2.0.0 <4.0.0"
 
 selfsigned@^1.10.7:
   version "1.10.7"
